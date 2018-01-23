@@ -7,7 +7,7 @@ The scope of this particular list is limited to things infrastructure developers
 
 You can help by sending Pull Requests to add more services. Once I have a good set of links in this README file, I'll look into a better layout for the information and links (help with that is appreciated too).
 
-*NOTE:* This list is only for as-a-Service offerings, not for self-hosted software.
+*NOTE:* This list is only for as-a-Service offerings, not for self-hosted software. For a service to be eligible it has to offer a Free Tier and not just a free trial. If the Free Tier is time bucketed it has to be at least a year.
 
 Table of Contents
 =================
@@ -30,7 +30,7 @@ Table of Contents
    * [CDN and Protection](#cdn-and-protection)
    * [PaaS](#paas)
    * [BaaS](#baas)
-   * [Web](#web-hosting)
+   * [Web Hosting](#web-hosting)
    * [DNS](#dns)
    * [IaaS](#iaas)
    * [DBaaS](#dbaas)
@@ -98,7 +98,7 @@ Table of Contents
   * [cnverg.com](http://cnverg.com/) — Real-time shared visual workspace, whiteboard, GitHub integration. Free 5 GB, 5 spaces and 5 collaborators, no GitHub repos
   * [flock.com](https://flock.com) — A faster way for your team to communicate. Free Unlimited Messages, Channels, Users, Apps & Integrations
   * [Igloo](https://www.igloosoftware.com/) — Internal portal for sharing documents, blogs and calendars etc. Free for up to 10 users.
-  * [riot.im](https://about.riot.im/) — A decentralized communication tool built on Matrix. Group chats, direct messaging, encrypted file transfers, voice and video chats, and easy integration with other services. 
+  * [riot.im](https://about.riot.im/) — A decentralized communication tool built on Matrix. Group chats, direct messaging, encrypted file transfers, voice and video chats, and easy integration with other services.
 
 ## Code Quality
 
@@ -197,7 +197,8 @@ Table of Contents
   * [report-uri.io](https://report-uri.io/) — CSP and HPKP violation reporting
   * [cloudsploit.com](https://cloudsploit.com/) — Amazon Web Services (AWS) security and compliance auditing and monitoring
   * [Have I been pwned?](https://haveibeenpwned.com) — REST API for fetching the information on the breaches.
-
+  * [Internet.nl](https://internet.nl) — Test for modern Internet Standards like IPv6, DNSSEC, HTTPS, DMARC, STARTTLS and DANE
+  
 ## Management System
 
   * [bitnami.com](https://bitnami.com/) — Deploy prepared apps on IaaS. Management of 1 AWS micro instance free
@@ -206,12 +207,13 @@ Table of Contents
 
 ## Log Management
 
-  * [papertrailapp.com](https://papertrailapp.com/) — 48 hours search, 7 days archive, 100 MB/month
   * [logentries.com](https://logentries.com/) — Free up to 5 GB/month with 7 days retention
   * [loggly.com](https://www.loggly.com/) — Free for a single user, see the lite option
+  * [logz.io](http://logz.io/) — Free up to 1 GB/day, 3 days retention
+  * [papertrailapp.com](https://papertrailapp.com/) — 48 hours search, 7 days archive, 100 MB/month
+  * [rollbar.com](https://rollbar.com) — Free up to 5000 events/month, 30 days retention
   * [sematext.com](https://sematext.com//logsene) — Free up to 500 MB/day, 7 days retention
   * [sumologic.com](https://www.sumologic.com/) — Free up to 500 MB/day, 7 days retention
-  * [logz.io](http://logz.io/) — Free up to 1 GB/day, 3 days retention
 
 ## Translation Management
 
@@ -345,6 +347,7 @@ Table of Contents
   * [zeit.co/now](https://zeit.co/now) — Managed platform for Node.js, static sites and Docker deployments. Limited to 3 concurrent instances, 1 GB storage and 1 GB bandwidth for OSS projects (source files are exposed on a public URL)
   * [sandstorm.io](https://sandstorm.io/) — Sandstorm is an open source operating system for personal and private clouds. Free plan offers 200 MB storage and 5 grains free
   * [gearhost.com](https://www.gearhost.com/pricing) — Platform for .NET and PHP apps. 256 MB of RAM for free on a shared server with limited resources
+  * [glitch.com](https://www.glitch.com/) — Free unlimited public/private hosting for Node.js apps with features such as code sharing and real-time collaboration
 
 ## BaaS
 
@@ -374,6 +377,7 @@ Table of Contents
 
 ## Web Hosting
 
+  * [pages.github.com](https://pages.github.com/) — Hosting static site directly from GitHub repository
   * [closeheat.com](https://closeheat.com/) — Development Environment in the Cloud for Static Websites with Free Hosting and GitHub integration. 1 free website with custom domain support
   * [serverpilot.io](https://serverpilot.io/) ServerPilot, and we'll install everything you need to host PHP apps like WordPress. Unlimited servers, 1 SSH/SFTP user
   * [sourceforge.net](https://sourceforge.net/) — Find, Create and Publish Open Source software for free
@@ -388,7 +392,7 @@ Table of Contents
   * [tilda.cc](https://tilda.cc/) — One site, 50 pages, 50 MB storage, only the main pre-defined blocks among 170+ available, no fonts, no favicon and no custom domain
   * [surge.sh](https://surge.sh/) — Static web publishing for Front-End developers. Unlimited sites with custom domain support
   * [neocities.org](https://neocities.org) — Static, 1 GB free storage with 200 GB Bandwidth.
-  * [txti.es](https://txt.es) — Quickly create web pages with markdown.
+  * [txti.es](http://txti.es/) — Quickly create web pages with markdown.
 
 ## DNS
 
@@ -440,9 +444,10 @@ Table of Contents
    * [stun:stun.l.google.com:19302](stun:stun.l.google.com:19302) — Google STUN
    * [stun:global.stun.twilio.com:3478?transport=udp](stun:global.stun.twilio.com:3478?transport=udp) — Twilio STUN
    * [segment.com](https://segment.com/) — Hub to translate and route events to other third party services. 100,000 events/month free
-   * [ngrok.com](https://ngrok.com/) — Expose locally running servers over a tunnel to a public URL
+   * [ngrok.com](https://ngrok.com/) — Expose locally running servers over a tunnel to a public URL.
    * [cloudamqp.com](https://www.cloudamqp.com/) — RabbitMQ as a Service. Little Lemur plan: max 1 million messages/month, max 20 concurrent connections, max 100 queues, max 10,000 queued messages, multiple nodes in different AZ's
-   * [meetfinch.com](https://meetfinch.com/) — Easily create SSL encrypted URLs that tunnel to your local development machine
+   * [serveo.net](https://serveo.net/) - Quickly expose any local port to the public internet on a servo subdomain using an SSH tunnel, includes SSH GUI to replay requests over HTTP.
+   * [ZeroTier](https://www.zerotier.com) - FOSS managed virtual Ethernet as a service. Unlimited end-to-end encrypted networks of 100 clients on free plan. Clients for desktop/mobile/NA; web interface for configuration of custom routing rules and approval of new client nodes on private networks.
 
 ## Issue Tracking and Project Management
 
@@ -451,7 +456,6 @@ Table of Contents
    * [atlassian.com](https://atlassian.com/opensource/overview) — Free Jira etc for Open Source
    * [kanbantool.com](http://kanbantool.com/) — Kanban board based project management. Free, paid plans with more options
    * [kanbanflow.com](https://kanbanflow.com/) — Board based project management. Free, premium version with more options
-   * [kanbanery.com](https://kanbanery.com/) — Board based project management. Free for 2 users, premium tiers with more options
    * [zenhub.io](https://zenhub.io/) — The only project management solution inside GitHub. Free for public repos, OSS and nonprofit organizations
    * [trello.com](https://trello.com/) — Board based project management. Free
    * [producteev.com](https://producteev.com/) — Task management tool. Free, premium version with more options. Mobile applications available
@@ -466,7 +470,6 @@ Table of Contents
    * [gliffy.com](http://gliffy.com/) — Online diagrams: flowchart, UML, wireframe,... Also plugins for Jira and Confluence. 5 diagrams and 2 MB free
    * [cacoo.com](https://cacoo.com/) — Online diagrams in real-time: flowchart, UML, network. Free max. 15 users/diagram, 25 sheets
    * [draw.io](https://www.draw.io/) — Online diagrams stored locally, in Google Drive, OneDrive or Dropbox. Free for all features and storage levels
-   * [leankit.com](http://leankit.com/) — Kanban board, that visualizes your workflow. Free up to 10 users
    * [visualstudio.com](https://www.visualstudio.com//products/what-is-visual-studio-online-vs) — Unlimited free private code repositories; Tracks bugs, work items, feedback and more
    * [testlio.com](https://testlio.com/) — Issue tracking, test management and beta testing platform. Free for private use
    * [vivifyscrum.com](https://vivifyscrum.com/) — Free tool for Agile project management. Scrum Compatible
@@ -477,6 +480,10 @@ Table of Contents
    * [planitpoker.com](http://planitpoker.com/) — Free online planning poker (estimation tool)
    * [ubertesters.com](https://ubertesters.com/) — Test platform, integration and crowdtesters, 2 projects, 5 members
    * [jetbrains.com](https://www.jetbrains.com/youtrack/buy/#edition=incloud) — search based on time tracking, attachments on Agile Board, and many other improvements. 10 users 5 GB free
+   * [plan.io](https://plan.io/) — Project Management with Repository Hosting and mor options. Free for 2 users with 10 customers and 500MB Storage
+   * [taskade.com](https://taskade.com/) — Real-time collaborative task lists and outlines for teams
+
+
 
 ## Storage and Media Processing
 
@@ -514,13 +521,15 @@ Table of Contents
 ## Data Visualization on Maps
 
    * [geocoder.opencagedata.com](https://geocoder.opencagedata.com/) — Geocoding API that aggregates OpenStreetMap and other open geo sources. 2,500 free queries/day
-   * [datamaps.co](https://datamaps.co/) a free platform for creating visualizations with data maps
+   * [datamaps.co](https://datamaps.co/) — a free platform for creating visualizations with data maps
    * [geocod.io](http://geocod.io/) — Geocoding via API or CSV Upload. 2,500 free queries/day
    * [gogeo.io](http://gogeo.io/) — Maps and geospatial services with an easy to use API and support for big data
    * [carto.com](https://carto.com/) — Create maps and geospatial APIs from your data and public data
    * [giscloud.com](http://giscloud.com/) — Visualize, analyze and share geo data online
    * [latlon.io](https://latlon.io/) — Geocoding API + school districts, census geography divisons and other address based data. 2,500 free requests/month
    * [mapbox.com](https://mapbox.com/) — Maps, geospatial services and SDKs for displaying map data
+   * [osmnames](https://osmnames.org/) — Geocoding, search results ranked by the popularity of related Wikipedia page
+   * [tilehosting](https://www.tilehosting.com/) — Vector maps, map services and SDKs for map visualisation. Free vector tiles with weekly update and four map styles.
 
 ## Package Build System
 
@@ -531,8 +540,8 @@ Table of Contents
 ## IDE and Code Editing
 
    * [c9.io](https://c9.io/) — IDE in a browser. Incorporates an Ubuntu virtual machine and in-browser terminal access. Integrates with GitHub and BitBucket, but also adds SFTP and generic Git access
-   * [codeanywhere.com](https://codeanywhere.com/) — Full IDE in the browser and mobile apps. Access FTP, SFTP, Dropbox, Google Drive, GitHub and BitBucket. Hosted virtual machines with terminal access. Collaboration features like share links, live editing, permissions and version tracking
-   * [codenvy.com](https://codenvy.com/) — IDE and automated developer workspaces in a browser, collaborative, Git/SVN integration, build and run your app in customizable Docker-based runners (free tier includes: 4 GB RAM, always-on machines, ability to run multiple machines simultaneously), pre-integrated deploy to Google Apps
+   * [codeanywhere.com](https://codeanywhere.com/) — Full IDE in the browser and mobile apps. Access FTP, SFTP, Dropbox, Google Drive, GitHub and BitBucket. Hosted virtual machines with terminal access. Collaboration features like share links, live editing, permissions and version tracking (free tier includes 256MB RAM, 2GB HDD, 1 remote connection, no always on machine)
+   * [codenvy.com](https://codenvy.com/) — IDE and automated developer workspaces in a browser, collaborative, Git/SVN integration, build and run your app in customizable Docker-based runners (free tier includes: 3 GB RAM, ability to run multiple machines simultaneously), pre-integrated deploy to Google Apps
    * [visualstudio.com](http://visualstudio.com/community) — Fully-featured IDE with thousands of extensions, cross-platform app development (Microsoft extensions available for download for iOS and Android), desktop, web and cloud development, multi-language support (C#, C++, JavaScript, Python, PHP and more)
    * [cocalc.com](https://cocalc.com/) (formerly SageMathCloud at cloud.sagemath.com) — Collaborative calculation in the cloud. Browser access to full Ubuntu with built-in collaboration and lots of free software for mathematics, science, data science, preinstalled: Python, LaTeX, Jupyter Notebooks, SageMath, scikitlearn, etc
    * [wakatime.com](https://wakatime.com/) — Quantified self-metrics about your coding activity, using text editor plugins, limited plan for free
@@ -613,7 +622,7 @@ Table of Contents
   * [readme.io](https://readme.io/) — Beautiful documentation made easy, free for Open Source
   * [formaholic.com](https://formaholic.com) — Simple form endpoint. Perfect for static sites
   * [http2.pro](https://http2.pro) — HTTP/2 protocol readiness test and client HTTP/2 support detection API.
-  * [Formspree.io](https://formspree.io/) — Send email using an HTTP POST request. Free tier limits to 1000 submissions per month and must expose email address in the API call. 
+  * [Formspree.io](https://formspree.io/) — Send email using an HTTP POST request. Free tier limits to 1000 submissions per month and must expose email address in the API call.
   * [Typeform.com](https://www.typeform.com/) — Include beautifully designed forms on websites.  Free plan allows only 10 fields per form and 100 responses per month.
   * [SurveyMonkey.com](https://www.surveymonkey.com) — Create online surveys. Analyze the results online.  Free plan allows only 10 questions and 100 responses per survey.
 
